@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Start') {
             steps {
-                echo 'Lab1': nginx/custom'
+                echo 'Lab1: nginx/custom'
             }
         }
         
