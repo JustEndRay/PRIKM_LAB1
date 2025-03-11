@@ -10,7 +10,7 @@ pipeline {
         
         stage('Checkout') {
             steps {
-                git branch: 'Lab_1', url: 'https://github.com/JustEndRay/PRIKM.git'
+                git branch: 'Lab_1', url: 'https://github.com/JustEndRay/PRIKM_Lab1.git'
             }
         }
         
