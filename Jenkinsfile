@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Start') {
             steps {
-                echo 'Lab_1: nginx/custom'
+                echo 'Lab1': nginx/custom'
             }
         }
         
         stage('Checkout') {
             steps {
-                git branch: 'Lab_1', url: 'https://github.com/JustEndRay/PRIKM_Lab1.git'
+                git branch: 'main', url: 'https://github.com/JustEndRay/PRIKM_Lab1.git'
             }
         }
         
